@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch model weights and checkpoints
+model_data/*.pth
+model_data/*.pt
+model_data/*.onnx
+
+# Results and figures
+prediction_result/
+*.pdf
+*.png
+*.jpg
+
+# Data files (might be large)
+data/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+
